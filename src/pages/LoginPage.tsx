@@ -41,14 +41,14 @@ const LoginPage = () => {
 
         <form onSubmit={handleSubmit} className="login-form">
           <div className="form-group">
-            <label>NIM</label>
+            <label>user</label>
             <div className="input-wrapper">
               <Hash size={16} className="input-icon" />
               <input
                 type="text"
                 value={nim}
                 onChange={(e) => setNim(e.target.value)}
-                placeholder="Masukkan NIM Anda"
+                placeholder="Masukkan User Anda"
                 required
                 autoComplete="username"
               />
@@ -56,14 +56,14 @@ const LoginPage = () => {
           </div>
 
           <div className="form-group">
-            <label>Password</label>
+            <label>Sandi</label>
             <div className="input-wrapper">
               <Lock size={16} className="input-icon" />
               <input
                 type={showPass ? 'text' : 'password'}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="Masukkan Password"
+                placeholder="Masukkan Sandi Anda"
                 required
                 autoComplete="current-password"
               />
@@ -87,7 +87,7 @@ const LoginPage = () => {
         </form>
 
         <p className="login-hint">
-          Default: NIM <strong>24090119</strong> / Password <strong>password123</strong>
+          Default: User<strong>24090119</strong> / Sandi <strong>password123</strong>
         </p>
       </div>
     </div>

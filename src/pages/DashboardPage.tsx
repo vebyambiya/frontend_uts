@@ -48,7 +48,7 @@ const DashboardPage = () => {
     <div className="page">
       <div className="page-header">
         <h1>Dashboard</h1>
-        <p>Selamat datang di Event Management System</p>
+        <p>Selamat datang di Halaman Dashboard Event Management System</p>
       </div>
 
       {loading ? (
@@ -79,15 +79,6 @@ const DashboardPage = () => {
             termasuk seminar, workshop, dan acara lainnya. Sistem ini memungkinkan pengelolaan
             kategori event, pembicara, dan detail event secara terpadu.
           </p>
-        </div>
-        <div className="info-card">
-          <h3>Teknologi</h3>
-          <ul className="tech-list">
-            <li><span className="tech-badge react">React + TypeScript</span></li>
-            <li><span className="tech-badge express">Express + TypeScript</span></li>
-            <li><span className="tech-badge prisma">Prisma ORM</span></li>
-            <li><span className="tech-badge zustand">Zustand</span></li>
-          </ul>
         </div>
       </div>
     </div>

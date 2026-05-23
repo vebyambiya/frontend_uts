@@ -97,7 +97,7 @@ const EventsPage = () => {
   return (
     <div className="page">
       <div className="page-header">
-        <div><h1>Event</h1><p>Kelola semua event</p></div>
+        <div><h1>Halaman Event</h1><p>Kelola event anda</p></div>
         <button className="btn-primary" onClick={openAdd}><Plus size={16} /> Tambah Event</button>
       </div>
 

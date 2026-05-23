@@ -13,30 +13,21 @@ const BiodataPage = () => {
       <div className="biodata-container">
         {/* Kartu Profil */}
         <div className="biodata-card profile-card">
-          <div className="profile-avatar-lg">
-            <span>V</span>
-          </div>
           <h2 className="profile-name">Veby Rokhmatul Ambiya</h2>
-          <p className="profile-nim">NIM: 24090119</p>
-          <p className="profile-prodi">D-4 Teknik Informatika</p>
-          <p className="profile-kampus">Universitas Politeknik Harapan Bersama</p>
+          <p className="profile-nim">24090119</p>
+          <p className="profile-prodi">Teknik Informatika</p>
+          <p className="profile-kampus">UHN</p>
 
           <div className="profile-contacts">
             <a href="mailto:veby@example.com" className="contact-chip">
-              <Mail size={14} /> veby@example.com
+              <Mail size={14} /> vebyambiya@gmail.com
             </a>
             <span className="contact-chip">
-              <MapPin size={14} /> Tegal, Jawa Tengah
+              <MapPin size={14} /> Bumijawa, Jawa Tengah
             </span>
             <span className="contact-chip">
-              <Phone size={14} /> 08xx-xxxx-xxxx
+              <Phone size={14} /> 085643316371
             </span>
-          </div>
-
-          <div className="social-links">
-            <a href="#" className="social-btn github"><Github size={18} /></a>
-            <a href="#" className="social-btn linkedin"><Linkedin size={18} /></a>
-            <a href="#" className="social-btn instagram"><Instagram size={18} /></a>
           </div>
         </div>
 
@@ -51,34 +42,11 @@ const BiodataPage = () => {
             <div className="detail-grid">
               <div className="detail-item"><span>Nama Lengkap</span><strong>Veby Rokhmatul Ambiya</strong></div>
               <div className="detail-item"><span>NIM</span><strong>24090119</strong></div>
-              <div className="detail-item"><span>Program Studi</span><strong>D-4 Teknik Informatika</strong></div>
-              <div className="detail-item"><span>Fakultas</span><strong>Sekolah Vokasi</strong></div>
+              <div className="detail-item"><span>Program Studi</span><strong>Teknik Informatika</strong></div>
+              <div className="detail-item"><span>Fakultas</span><strong>Vokasi</strong></div>
               <div className="detail-item"><span>Angkatan</span><strong>2024</strong></div>
               <div className="detail-item"><span>Status</span><strong>Aktif</strong></div>
               <div className="detail-item"><span>Kampus</span><strong>Kampus Mataram – Jalan Mataram No.9, Kota Tegal</strong></div>
-            </div>
-          </div>
-
-          {/* Teknologi */}
-          <div className="detail-card">
-            <div className="detail-header">
-              <Code2 size={20} />
-              <h3>Teknologi yang Digunakan</h3>
-            </div>
-            <div className="tech-stack">
-              {[
-                { name: 'React', sub: 'TypeScript', color: '#61DAFB' },
-                { name: 'Express', sub: 'TypeScript', color: '#68A063' },
-                { name: 'Prisma ORM', sub: 'Supabase PostgreSQL', color: '#2D3748' },
-                { name: 'Zustand', sub: 'State Management', color: '#FF6B35' },
-                { name: 'Vite', sub: 'Build Tool', color: '#646CFF' },
-                { name: 'Vercel', sub: 'Deployment', color: '#a0aec0' },
-              ].map(({ name, sub, color }) => (
-                <div key={name} className="tech-item" style={{ borderLeft: `3px solid ${color}` }}>
-                  <strong style={{ color }}>{name}</strong>
-                  <span>{sub}</span>
-                </div>
-              ))}
             </div>
           </div>
 
@@ -98,12 +66,6 @@ const BiodataPage = () => {
               Prisma ORM dengan database Supabase PostgreSQL, serta Zustand untuk state management
               termasuk autentikasi login berbasis NIM dan Password.
             </p>
-            <div className="repo-link">
-              <Github size={16} />
-              <a href="https://github.com/username/event-management" target="_blank" rel="noopener noreferrer">
-                github.com/username/event-management
-              </a>
-            </div>
           </div>
         </div>
       </div>

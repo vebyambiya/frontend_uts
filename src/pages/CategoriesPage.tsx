@@ -77,8 +77,8 @@ const CategoriesPage = () => {
     <div className="page">
       <div className="page-header">
         <div>
-          <h1>Kategori Event</h1>
-          <p>Kelola kategori untuk event Anda</p>
+          <h1>Kategori</h1>
+          <p>Kelola kategori</p>
         </div>
         <button className="btn-primary" onClick={openAdd}>
           <Plus size={16} /> Tambah Kategori

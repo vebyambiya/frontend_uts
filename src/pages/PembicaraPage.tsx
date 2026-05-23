@@ -72,7 +72,7 @@ const PembicaraPage = () => {
       <div className="page-header">
         <div>
           <h1>Pembicara</h1>
-          <p>Kelola data pembicara event</p>
+          <p>Kelola data pembicara</p>
         </div>
         <button className="btn-primary" onClick={openAdd}>
           <Plus size={16} /> Tambah Pembicara
